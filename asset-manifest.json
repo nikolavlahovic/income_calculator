@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/income_calculator/static/css/main.56eea090.css",
-    "main.js": "/income_calculator/static/js/main.dce7005b.js",
+    "main.js": "/income_calculator/static/js/main.27476a33.js",
     "static/js/787.65305f5d.chunk.js": "/income_calculator/static/js/787.65305f5d.chunk.js",
     "index.html": "/income_calculator/index.html",
     "static/media/wallet.svg": "/income_calculator/static/media/wallet.2389c70b70f2af3cc07cf69aaad37a80.svg",
     "main.56eea090.css.map": "/income_calculator/static/css/main.56eea090.css.map",
-    "main.dce7005b.js.map": "/income_calculator/static/js/main.dce7005b.js.map",
+    "main.27476a33.js.map": "/income_calculator/static/js/main.27476a33.js.map",
     "787.65305f5d.chunk.js.map": "/income_calculator/static/js/787.65305f5d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56eea090.css",
-    "static/js/main.dce7005b.js"
+    "static/js/main.27476a33.js"
   ]
 }
