@@ -11,7 +11,7 @@ function App() {
       <AnimatePresence>
         <Routes>
           <Route element={<Dashboard />} path={"/"}>
-            <Route element={<Income />} path={"/income"} />
+            <Route element={<Income />} path={"/"} />
             <Route element={<IncomeDetails />} path={"/income_details"} />
           </Route>
         </Routes>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import AnimatedPage from "./AnimatedPage";
+import AnimatedContent from "./AnimatedContent";
 
 function Income() {
   const navigate = useNavigate();
@@ -16,12 +16,13 @@ function Income() {
     });
   };
   return (
-    <AnimatedPage>
+    <AnimatedContent>
       <div className="text-black px-2 py-2 rounded-b-lg flex justify-left align-center">
         <form onSubmit={handleSubmit}>
           <label htmlFor="income" className="flex flex-col text-xl">
-            <h1 className="ml-5 mb-2">What is your total income?</h1>
+            <h1 className="ml-5 mb-2">What is your total monthly income?</h1>
             <input
+              min={0}
               className=" border-none active:border-none ml-5 bg-transparent outline-none shadow-[0px_2px_4px_-4px_rgba(0,0,0,1)]"
               type="number"
               name="income"
@@ -41,7 +42,7 @@ function Income() {
             </button>
           )}
           {showRadio && (
-            <AnimatedPage>
+            <AnimatedContent>
               <h1 className="ml-5 mb-2 text-xl mt-3">
                 Please choose the income type
               </h1>
@@ -69,11 +70,11 @@ function Income() {
               >
                 Calculate
               </button>
-            </AnimatedPage>
+            </AnimatedContent>
           )}
         </form>
       </div>
-    </AnimatedPage>
+    </AnimatedContent>
   );
 }
 

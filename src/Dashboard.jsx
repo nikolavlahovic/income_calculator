@@ -16,8 +16,8 @@ function Dashboard() {
             style={({ isActive }) =>
               isActive ? { "backgroundColor": "rgb(0,0,0)" } : undefined
             }
-            to="/income"
-            className="bg-emerald-500 px-3 py-3 mt-1 text-white  hover:bg-emerald-400"
+            to="/"
+            className="bg-emerald-500 px-3 py-3 mt-1 text-white  hover:bg-emerald-400]"
           >
             Income
           </NavLink>
@@ -26,8 +26,8 @@ function Dashboard() {
               isActive ? { "backgroundColor": "rgb(0,0,0)" } : undefined
             }
             to="/income_details"
-            state={{ income: "", icomeType: "" }}
-            className="bg-emerald-600 px-3 py-3 text-white hover:bg-emerald-700 disabled"
+            state={{ income: "", icomeType: "", frequency: "montly" }}
+            className="bg-emerald-500 px-3 py-3 text-white hover:bg-emerald-400"
           >
             Income details
           </NavLink>
