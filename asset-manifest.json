@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/inc_calc/static/css/main.56eea090.css",
+    "main.js": "/inc_calc/static/js/main.154657b6.js",
+    "static/js/787.65305f5d.chunk.js": "/inc_calc/static/js/787.65305f5d.chunk.js",
+    "index.html": "/inc_calc/index.html",
+    "static/media/wallet.svg": "/inc_calc/static/media/wallet.2389c70b70f2af3cc07cf69aaad37a80.svg",
+    "main.56eea090.css.map": "/inc_calc/static/css/main.56eea090.css.map",
+    "main.154657b6.js.map": "/inc_calc/static/js/main.154657b6.js.map",
+    "787.65305f5d.chunk.js.map": "/inc_calc/static/js/787.65305f5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56eea090.css",
+    "static/js/main.154657b6.js"
+  ]
+}
