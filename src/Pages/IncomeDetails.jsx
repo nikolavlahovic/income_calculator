@@ -34,7 +34,7 @@ function IncomeDetails() {
             {Math.round(state.incomeType === "gross" ? netIncome : grossIncome)}
           </div>
           <h1 className="h-5 mt-4 pt-1">
-            - Your total {state.incomeType === "gross" ? "net" : "gross"} income
+            Your total {state.incomeType === "gross" ? "net" : "gross"} income
           </h1>
         </div>
         <div className="flex justify-center w-10/12 mx-auto bg-white py-5">
